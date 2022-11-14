@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1"/>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+	</head>
+
+<body> 
+	<nav class="navbar navbar-default">
+		<div class="container-fluid">
+			<a class="navbar navbar-brand" href="#">Random Password Generate</a>
+		</div>
+	</nav>
+	<div class="col-md-3"></div>
+	<div class="col-md-6 well">
+		<h3 class="text-primary">How to Create Random Password in JavaScript</h3>
+		<hr style="border-top:1px dotted #ccc;"/>
+		<div class="col-md-5">
+			<form class="form-group">
+				<input type="text" id="password" placeholder="Password here..." class="form-control" readonly = "readonly"/>
+			</form>
+			<label>Password Length:</label> <input type="number" id="plength" class="form-control" size="2"/>
+			<br />
+			<button type="button" class="btn btn-success btn-block" onClick="displayPassword();"/>Generate</button>
+		</div>
+	</div>
+</body>
+<script src="script.js"></script>
+</html>
